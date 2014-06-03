@@ -4,7 +4,7 @@
 ============================== 
 
 Usage: 
-   logminer -s <search string> -i <input-file> -o <output file> -v <1 verbose, 0 silent>
+   logminer -s <search string> -i <input-file> -o <output file> -v <1 verbose>
 
 Options:
   -h, --help     show help message and exit
@@ -24,6 +24,8 @@ Build GUI for mouse pushers
 version a py3k version
 implement a threaded search for huge files
 
+
+================================
 Logminer is simple tool for searching for a string in a textfile and writing out results into a separate output file written in python 2.x.
 Well, from a Linux terminal this can be achieved from a single line command but while trying out the Eudyptula Challenge I realized 
 I was checking the /var/log/syslog file now and then, running such a command....
