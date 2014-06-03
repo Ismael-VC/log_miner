@@ -3,7 +3,7 @@ Logminer is simple tool for searching for a string in a textfile and writing out
 Well, from a Linux terminal this can be achieved from a single line command but while trying out the Eudyptula Challenge I realized 
 I was checking the /var/log/syslog file now and then, running such a command....
 
-#cat /var/log/syslog | grep -i hello_world >> hello.log
+"cat /var/log/syslog | grep -i hello_world >> hello.log"
 
 Who likes repeating things in Linux? So I wrote a simple python script for that. Then, why not make it fancy and share it with the world? 
 At least I'll make use of git in that case and maybe make the tool better | better* >> *better*
@@ -14,7 +14,7 @@ To print the results on the screen, set verbose mode to true -v 1 (it's false by
 Specify an out-put file of results with -o (/data/logminer.log by default).
 
 
-==============================
+
    Log Miner (version 1.0)
 ============================== 
 
