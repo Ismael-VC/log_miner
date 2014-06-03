@@ -3,7 +3,8 @@
    Log Miner (version 1.0)
 ============================== 
 
-Usage: logminer -s <search string> -i <input-file> -o <output file> -v <1 verbose, 0 silent>
+Usage: 
+   logminer -s <search string> -i <input-file> -o <output file> -v <1 verbose, 0 silent>
 
 Options:
   -h, --help     show help message and exit
