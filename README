@@ -41,7 +41,6 @@ Then, why not make it fancy and share it with the world?
 At least I'll make use of git in that case and maybe make the tool better | better* >> *better*
 
 The script accepts at-least one option i.e a string to search in a file (/var/log/syslog by default). 
-To avoid printing the results on the screen, set verbose mode to false -v 0 (it's true by default). 
-Specify an out-put file of results with -o (/data/logminer.log by default).
+To print the results on the screen, set verbose mode to true -v 1 (it's false by default).
 
 ===============================
