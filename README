@@ -4,7 +4,7 @@
 ============================== 
 
 Usage: 
-   logminer -s <search string> -i <input-file> -o <output file> -v <0 non-verbose>
+   ./logminer -s <search string> -i <input-file> -o <output file> -v <0 non-verbose>
 
 Options:
   -h, --help     show help message and exit
@@ -13,9 +13,12 @@ Options:
   -o OUTPUTFILE  specify output file (optional)
   -v VERBOSITY   1 for verbose, 0 for silent (optional)
 
+================================
+(you can create logminer link in /usr/bin/ )
 
 ---------------------------------
 Additional Support (contributor?)
+---------------------------------
 
 Support regex search
 Output xml/json data
