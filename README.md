@@ -18,18 +18,18 @@ Options:
 ```
 
 ---------------------------------
-Maybe things to change/add....
----------------------------------
+###### Maybe things to change/add....
 
-Support regex search
-Output xml/json data
-Model a OOP version
-Build GUI for mouse pushers
-version a py3k version
-implement a threaded search for huge files
+* Support regex search
+* Output xml/json data
+* Model a OOP version
+* Build GUI for mouse pushers
+* A Py3k verion
+* implement a threaded search for huge files
+* etc (nothing serious though)
 
-
-================================
+About
+-----
 
 Logminer is simple tool for searching for a string in a textfile and writing out results 
 into a separate output file written in python 2.x.
@@ -38,14 +38,14 @@ Well, from a Linux terminal this can be achieved from a single line command
 but while trying out the Eudyptula Challenge I realized I was checking the /var/log/syslog often, 
 running such a command....
 
-"cat /var/log/syslog | grep -i hello_world >> hello.log"
+```cat /var/log/syslog | grep -i hello_world >> hello.log```
 
-Who likes repeating things in Linux? No one I know... So I wrote a simple python script for that. 
-Then, why not make it fancy and share it with the world? 
-At least I'll make use of git in that case and maybe make the tool better | better* >> *better*
+Who likes repeating things in Linux? I can't point anyone... So I wrote a simple python script for that. 
+Then, why not make it fancy and share it with the world? At least I'll make use of git in that case and maybe 
+make the tool ```better | better* >> *better*```
 
 The script accepts at-least one option i.e a string to search in a file (/var/log/syslog by default). 
 To print the results on the screen, set verbose mode to true -v 1 (it's false by default).
 
 ===============================
-**Python can bite and also wrangle you to death**
+**Python can bite and also wrangle you to death :)**
