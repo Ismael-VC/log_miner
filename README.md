@@ -2,7 +2,7 @@
 ==============================
    Log Miner (version 1.0)
 ============================== 
-
+```
 Usage: 
    ./logminer -s <search string> -i <input-file> -o <output file> -v <0 non-verbose>
 
@@ -15,9 +15,10 @@ Options:
 
 ================================
 (you can create logminer link in /usr/bin/ )
+```
 
 ---------------------------------
-Additional Support (contributor?)
+Maybe things to change/add....
 ---------------------------------
 
 Support regex search
@@ -47,3 +48,4 @@ The script accepts at-least one option i.e a string to search in a file (/var/lo
 To print the results on the screen, set verbose mode to true -v 1 (it's false by default).
 
 ===============================
+**Python can bite and also wrangle you to death**
