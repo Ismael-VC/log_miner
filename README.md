@@ -1,6 +1,6 @@
 
 ==============================
-   Log Miner (version 1.0)
+   Log Miner (version 1.1)
 ============================== 
 ```
 Usage: 
@@ -24,7 +24,6 @@ Options:
 * Output xml/json data
 * Model a OOP version
 * Build GUI for mouse pushers
-* A Py3k verion
 * implement a threaded search for huge files
 * etc (nothing serious though)
 
