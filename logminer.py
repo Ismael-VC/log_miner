@@ -73,6 +73,7 @@ def main():
         exit(0)
 
     try:
+        # ensures files are closed allways! even if exceptions are raised
         with open(inputFile) as inFile: # 'r' is default
             with open(outputFile, 'a') as outFile:
                 if screen:
