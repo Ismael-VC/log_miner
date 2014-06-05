@@ -31,7 +31,7 @@ def main():
     """
     banner = dd("""\
                 ===============================
-                    Log Miner (version 1.0)
+                    Log Miner (version 1.1)
                 ===============================""")
     print(banner)
 
